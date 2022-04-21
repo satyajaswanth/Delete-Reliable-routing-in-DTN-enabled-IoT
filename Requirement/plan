@@ -1,0 +1,38 @@
+title: A Novel Min-Max Fuzzy Logic to Guarantee Reliable Data Delivery through Optimal Route in Cluster based Delay Tolerable IoT network
+============================================================================================================================================
+Implementation plan:
+=========================
+
+
+Step 1 : we create a  network topology .it consists 100- nodes , 9- Aggregator nodes and 1-sink .
+
+Step 2 : Divide the network into 9-equal size cells and  we deploy Aggregators at the center point of the cell.
+
+Step 3 : perform the cluster process by using Improved  Particle  Swarm Optimization based K-means (IPSO-K means). 
+
+Step 4 : Select the  optimal forwarder node in the cell by using Minimum - Maximum  Fuzzy  Logic  (Min-Max  FL) .
+
+Step 5 : The sensed data from each  sensor  is  forwarded  to  aggregator  through  optimal  forwarder  node. 
+
+Step 6 : At  aggregators  the aggregated  packets  are  categorized  into  emergency  and  non-emergency  packets  based  on  flag value. 
+
+Step 7 : The Non-emergency packets are compressed by In-networking Dual Compression (IN-DC) technique.  Then  aggregator  waits  for  mobile  sink  arrival,  after  that  it  transmits  the  compressed 
+		 data  to  mobile  sink. 
+
+Step 8 : If an  emergency  packet  is identified by aggregator then that packet is transmitted to sink node immediately through optimal route.  The  optimal  path  for  data  transmission  is  selected  by 
+         Knowledge  based  Firefly optimization  Algorithm  (KFFA) .
+
+[based on the proposal :- A Novel Min-Max Fuzzy Logic to Guarantee Reliable Data Delivery through Optimal Route in Cluster based Delay Tolerable IoT network ]
+
+Step 9: plot the results graph for Delay vs no.of.nodes,Delay vs buffer size,Packet Delivery Ratio vs no.of.nodes,Packet Delivery Ratio vs buffer size and Overhead vs no.of.nodes.
+
+
+
+===============================================================================================================
+s/w req:
+---------
+	1)ns-3.26
+	2)ubuntu-12.04 or 14.04 LTS(32 bit)
+
+
+====================================================================

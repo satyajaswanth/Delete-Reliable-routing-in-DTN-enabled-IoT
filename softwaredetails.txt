@@ -1,0 +1,7 @@
+
+
+ s/w req:
+
+            1)ns-3.26 ----------->32 bit version
+            
+            2)ubuntu 14.04-----------> single primary os not vmware with 32 bit system

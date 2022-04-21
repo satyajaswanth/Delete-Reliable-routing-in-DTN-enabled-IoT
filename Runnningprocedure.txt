@@ -1,0 +1,26 @@
+Additional s/w required:
+-------------------------
+1)gunplot
+install command 
+sudo apt-get install gnuplot
+-------------------------------------------------------------------------------------------------------------
+
+
+running procedure:
+--------------------
+1) copy the src and scratch folder  paste into ns-3.26 folder
+
+2) go to terminal type this command
+
+    a)sudo ./waf configure
+
+    b)sudo ./waf build
+
+
+3)Get build finished successfully message 
+
+
+4)run command:
+
+	1)sudo ./waf --run filename --vis
+ 	
